@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.BookServiceTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 0.079 s <<< FAILURE! - in com.example.demo.BookServiceTest
+testForTenPercentDiscount  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.1> but was: <0.05>
+	at com.example.demo.BookServiceTest.testForTenPercentDiscount(BookServiceTest.java:82)
+
+testForFifteenPercentDiscount  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.15> but was: <0.1>
+	at com.example.demo.BookServiceTest.testForFifteenPercentDiscount(BookServiceTest.java:90)
+
+testgetBookCompleteTiming  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.15> but was: <0.1>
+	at com.example.demo.BookServiceTest.testgetBookCompleteTiming(BookServiceTest.java:99)
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.demo.BookServiceTest" time="0.079" tests="13" errors="0" skipped="1" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\spring_workspace\junit5_task_testing\target\test-classes;C:\spring_workspace\junit5_task_testing\target\classes;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\harini.v\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\harini.v\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\harini.v\AppData\Local\Temp\surefire6042772173620597524\surefirebooter6002599397419216028.jar C:\Users\harini.v\AppData\Local\Temp\surefire6042772173620597524 2022-03-03T11-02-29_379-jvmRun1 surefire1279577476353873562tmp surefire_03583245274002965822tmp"/>
+    <property name="surefire.test.class.path" value="C:\spring_workspace\junit5_task_testing\target\test-classes;C:\spring_workspace\junit5_task_testing\target\classes;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\harini.v\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\harini.v\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\harini.v\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\harini.v"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property name="basedir" value="C:\spring_workspace\junit5_task_testing"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\harini.v\AppData\Local\Temp\surefire6042772173620597524\surefirebooter6002599397419216028.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="user.name" value="Harini.V"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.2"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\harini.v\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\harini.v\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="user.dir" value="C:\spring_workspace\junit5_task_testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_172\bin;D:\sts-4.2.0.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testGetBookMethodWithParam{int}[1]" classname="com.example.demo.BookServiceTest" time="0.023"/>
+  <testcase name="testGetBookMethodWithParam{int}[2]" classname="com.example.demo.BookServiceTest" time="0.001"/>
+  <testcase name="testGetBookMethodWithParam{int}[3]" classname="com.example.demo.BookServiceTest" time="0.001"/>
+  <testcase name="testForTenPercentDiscount" classname="com.example.demo.BookServiceTest" time="0.017">
+    <failure message="expected: &lt;0.1&gt; but was: &lt;0.05&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.1> but was: <0.05>
+	at com.example.demo.BookServiceTest.testForTenPercentDiscount(BookServiceTest.java:82)
+]]></failure>
+  </testcase>
+  <testcase name="testForFifteenPercentDiscount" classname="com.example.demo.BookServiceTest" time="0.001">
+    <failure message="expected: &lt;0.15&gt; but was: &lt;0.1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.15> but was: <0.1>
+	at com.example.demo.BookServiceTest.testForFifteenPercentDiscount(BookServiceTest.java:90)
+]]></failure>
+  </testcase>
+  <testcase name="testGetAllBooksPosition{int}[1]" classname="com.example.demo.BookServiceTest" time="0.001"/>
+  <testcase name="testGetAllBooksPosition{int}[2]" classname="com.example.demo.BookServiceTest" time="0.001"/>
+  <testcase name="testGetAllBooksPosition{int}[3]" classname="com.example.demo.BookServiceTest" time="0.003"/>
+  <testcase name="testGetBookTestFivePercentDiscount" classname="com.example.demo.BookServiceTest" time="0">
+    <skipped message="disabled till timeout bug in the method is fixed"/>
+  </testcase>
+  <testcase name="testGetBookMethodNotNull" classname="com.example.demo.BookServiceTest" time="0.003"/>
+  <testcase name="testGetBookMethodReturnNull" classname="com.example.demo.BookServiceTest" time="0.001"/>
+  <testcase name="testgetBookCompleteTiming" classname="com.example.demo.BookServiceTest" time="0.003">
+    <failure message="expected: &lt;0.15&gt; but was: &lt;0.1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.15> but was: <0.1>
+	at com.example.demo.BookServiceTest.testgetBookCompleteTiming(BookServiceTest.java:99)
+]]></failure>
+  </testcase>
+  <testcase name="testForException" classname="com.example.demo.BookServiceTest" time="0.001"/>
+</testsuite>
